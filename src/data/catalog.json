@@ -1,0 +1,1842 @@
+{
+  "chapters": [
+    {
+      "id": "giris",
+      "index": -1,
+      "title": "Giriş",
+      "start": 1,
+      "end": 4,
+      "subtitle": "Vanilla’dan The Last Titan’a hikâye atlası: olaylar, örgüler ve dönüm noktaları",
+      "period": "Atlas rehberi",
+      "coverImage": "/assets/source/image-1-1.png"
+    },
+    {
+      "id": "onsoz",
+      "index": 0,
+      "title": "Önsöz",
+      "start": 5,
+      "end": 13,
+      "subtitle": "Retail’den önceki Azeroth: kozmos, Titanlar ve üç savaş",
+      "period": "Çağlar boyu",
+      "coverImage": "/assets/source/image-5-1.png"
+    },
+    {
+      "id": "vanilla",
+      "index": 1,
+      "title": "Vanilla",
+      "start": 14,
+      "end": 31,
+      "subtitle": "Azeroth’ın kapıları açılıyor: iki ittifak, iki kıta, kırk kişilik raid’ler",
+      "period": "2004–2006",
+      "coverImage": "/assets/source/image-14-1.png"
+    },
+    {
+      "id": "the-burning-crusade",
+      "index": 2,
+      "title": "The Burning Crusade",
+      "start": 32,
+      "end": 48,
+      "subtitle": "Dark Portal’ın ötesi: parçalanmış bir dünya, iki yeni halk ve Illidan’ın krallığı",
+      "period": "2007–2008",
+      "coverImage": "/assets/source/image-32-1.png"
+    },
+    {
+      "id": "wrath-of-the-lich-king",
+      "index": 3,
+      "title": "Wrath of the Lich King",
+      "start": 49,
+      "end": 64,
+      "subtitle": "Northrend: Arthas’ın Buz Tahtı’na uzanan yürüyüş",
+      "period": "2008–2010",
+      "coverImage": "/assets/source/image-49-1.png"
+    },
+    {
+      "id": "cataclysm",
+      "index": 4,
+      "title": "Cataclysm",
+      "start": 65,
+      "end": 87,
+      "subtitle": "Deathwing’in dönüşü: Azeroth’ın yüzü yeniden şekilleniyor",
+      "period": "2010–2012",
+      "coverImage": "/assets/source/image-65-1.png"
+    },
+    {
+      "id": "mists-of-pandaria",
+      "index": 5,
+      "title": "Mists of Pandaria",
+      "start": 88,
+      "end": 110,
+      "subtitle": "Sisin ardındaki kıta: Horde ve Alliance’ın Pandaria savaşı",
+      "period": "2012–2014",
+      "coverImage": "/assets/source/image-88-1.png"
+    },
+    {
+      "id": "warlords-of-draenor",
+      "index": 6,
+      "title": "Warlords of Draenor",
+      "start": 111,
+      "end": 130,
+      "subtitle": "Orcların alternatif Draenor’u: Iron Horde’dan Archimonde’a",
+      "period": "2014–2016",
+      "coverImage": "/assets/source/image-111-1.png"
+    },
+    {
+      "id": "legion",
+      "index": 7,
+      "title": "Legion",
+      "start": 131,
+      "end": 153,
+      "subtitle": "Burning Legion’ın üçüncü istilası: Broken Isles’tan Argus’a",
+      "period": "2016–2018",
+      "coverImage": "/assets/source/image-131-1.png"
+    },
+    {
+      "id": "battle-for-azeroth",
+      "index": 8,
+      "title": "Battle for Azeroth",
+      "start": 154,
+      "end": 180,
+      "subtitle": "Dördüncü Savaş: Horde ile Alliance’ın son hesaplaşması",
+      "period": "2018–2020",
+      "coverImage": "/assets/source/image-154-1.png"
+    },
+    {
+      "id": "shadowlands",
+      "index": 9,
+      "title": "Shadowlands",
+      "start": 181,
+      "end": 210,
+      "subtitle": "Ölümün ötesi: Sylvanas, Jailer ve Domination zincirleri",
+      "period": "2020–2022",
+      "coverImage": "/assets/source/image-181-1.png"
+    },
+    {
+      "id": "dragonflight",
+      "index": 10,
+      "title": "Dragonflight",
+      "start": 211,
+      "end": 239,
+      "subtitle": "Ejderha Adaları’nın dönüşü ve Primal Incarnate’lerle savaş",
+      "period": "2022–2024",
+      "coverImage": "/assets/source/image-211-1.png"
+    },
+    {
+      "id": "the-war-within",
+      "index": 11,
+      "title": "The War Within",
+      "start": 240,
+      "end": 267,
+      "subtitle": "Worldsoul Saga’nın ilk bölümü: Azeroth’un derinlerinde Xal’atath",
+      "period": "2024–2026",
+      "coverImage": "/assets/source/image-240-1.png"
+    },
+    {
+      "id": "midnight",
+      "index": 12,
+      "title": "Midnight",
+      "start": 268,
+      "end": 303,
+      "subtitle": "Worldsoul Saga’nın ikinci bölümü: Quel’Thalas’ta Sunwell için savaş",
+      "period": "2026–2027",
+      "coverImage": "/assets/source/image-268-1.png"
+    },
+    {
+      "id": "the-last-titan",
+      "index": 13,
+      "title": "The Last Titan",
+      "start": 304,
+      "end": 312,
+      "subtitle": "Worldsoul Saga’nın finali: duyuruldu, ayrıntılar bekleniyor",
+      "period": "2027+",
+      "coverImage": "/assets/source/image-304-1.png"
+    },
+    {
+      "id": "butun-resim",
+      "index": 14,
+      "title": "Bütün resim",
+      "start": 313,
+      "end": 325,
+      "subtitle": "Yirmi iki yılın hikâyesini tek bakışta okumak",
+      "period": "Sonuç",
+      "coverImage": "/assets/source/image-313-1.png"
+    },
+    {
+      "id": "kaynaklar",
+      "index": 15,
+      "title": "Kaynaklar",
+      "start": 326,
+      "end": 327,
+      "subtitle": "Wikipedia: World of Warcraft  —  en.wikipedia.org/wiki/World_of_Warcraft\nWikipedia: genişleme maddeleri (Burning Crusade’den The War Within’e)  —  en.wikipedia.org/wiki/World_of_Warcraft:_<genişleme adı>\nWikipedia: World of Warcraft: Midnight  —  en.wikipedia.org/wiki/World_of_Warcraft:_Midnight\nWikipedia: Anduin Wrynn  —  en.wikipedia.org/wiki/Anduin_Wrynn\nWarcraft Wiki: genişleme sayfaları  —  warcraft.wiki.gg/wiki/World_of_Warcraft:_<genişleme adı>",
+      "period": "Referanslar",
+      "coverImage": null
+    }
+  ],
+  "slideCount": 327,
+  "threads": [
+    {
+      "title": "Burning Legion",
+      "label": "Dış tehdit",
+      "body": "Sargeras’ın iblis ordusu: İkinci Savaş’tan Burning Crusade’e, Legion’dan Argus’a ve Sargeras’ın kılıcına uzanan tehdit.",
+      "image": "/assets/source/image-4-1.png",
+      "query": "Burning Legion"
+    },
+    {
+      "title": "Ölüm ve Lich King",
+      "label": "Ölümsüzlük",
+      "body": "Scourge, Arthas, Lich King’in düşüşü ve Shadowlands’in açtığı yeni soru: ölümün düzeni kim tarafından yazılır?",
+      "image": "/assets/source/image-4-2.png",
+      "query": "Arthas"
+    },
+    {
+      "title": "Old Gods ve Void",
+      "label": "Eski kötülük",
+      "body": "C’Thun’dan N’Zoth’a, Deathwing’den Xal’atath’a: Azeroth’ın derinlerinde yatan kozmik kötülük.",
+      "image": "/assets/source/image-4-3.png",
+      "query": "Void"
+    },
+    {
+      "title": "Horde ve Alliance",
+      "label": "İç çatışma",
+      "body": "Garrosh, Sylvanas ve Teldrassil: iki ittifakın savaşı, ihaneti ve barış arayışı.",
+      "image": "/assets/source/image-4-4.png",
+      "query": "Horde"
+    }
+  ],
+  "slides": [
+    {
+      "number": 1,
+      "title": "World of Warcraft Retail",
+      "chapterId": "giris"
+    },
+    {
+      "number": 2,
+      "title": "Yolculuğun haritası",
+      "chapterId": "giris"
+    },
+    {
+      "number": 3,
+      "title": "Bu sunumun kapsamı",
+      "chapterId": "giris"
+    },
+    {
+      "number": 4,
+      "title": "Hikâyeyi bir arada tutan dört iplik",
+      "chapterId": "giris"
+    },
+    {
+      "number": 5,
+      "title": "Önsöz",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 6,
+      "title": "Kozmosun katmanları",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 7,
+      "title": "Titanlar ve Azeroth’ın doğuşu",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 8,
+      "title": "Sargeras ve Burning Legion",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 9,
+      "title": "Kaldorei, Azshara ve Sundering",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 10,
+      "title": "WoW’dan önce Azeroth’ın halkları",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 11,
+      "title": "Üç savaş: Warcraft I’den III’e",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 12,
+      "title": "Warcraft III’ten WoW’a taşınan isimler",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 13,
+      "title": "Frozen Throne: Lich King’in doğuşu",
+      "chapterId": "onsoz"
+    },
+    {
+      "number": 14,
+      "title": "Vanilla",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 15,
+      "title": "Vanilla künyesi",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 16,
+      "title": "Üçüncü Savaş’ın külleri",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 17,
+      "title": "Dört ayrı kamp",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 18,
+      "title": "Stormwind: Defias ve Katrana Prestor",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 19,
+      "title": "Horde’un Kalimdor’da yeniden doğuşu",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 20,
+      "title": "Plaguelands: Scarlet, Argent Dawn, Scourge",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 21,
+      "title": "Silithus, Qiraji ve Zaman’ın bekçileri",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 22,
+      "title": "Blackrock Mountain: Ragnaros ve kara ejderhalar",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 23,
+      "title": "Vanilla zindanları (1/2)",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 24,
+      "title": "Vanilla zindanları (2/2)",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 25,
+      "title": "Hakkar, Zul’Gurub ve Nightmare ejderhaları",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 26,
+      "title": "Vanilla’nın yedi raid’i",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 27,
+      "title": "Ahn’Qiraj kapıları açılıyor",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 28,
+      "title": "Scourge İstilası ve Naxxramas",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 29,
+      "title": "Vanilla yama takvimi",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 30,
+      "title": "Vanilla’nın akılda kalan kötüleri",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 31,
+      "title": "Vanilla’nın bıraktığı miras",
+      "chapterId": "vanilla"
+    },
+    {
+      "number": 32,
+      "title": "The Burning Crusade",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 33,
+      "title": "The Burning Crusade künyesi",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 34,
+      "title": "Dark Portal yeniden açılıyor",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 35,
+      "title": "Draenor’dan Outland’a",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 36,
+      "title": "Shattrath, Aldor ve Scryers",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 37,
+      "title": "İki yeni halk: Draenei ve Blood Elf",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 38,
+      "title": "Outland’ın büyük örgütleri",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 39,
+      "title": "Illidan, Black Temple ve İhanetçi’nin düşüşü",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 40,
+      "title": "Kael’thas, Sunwell ve Kil’jaeden’in planı",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 41,
+      "title": "Zul’jin ve Zul’Aman’ın loaları",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 42,
+      "title": "Caverns of Time: tarihi savunmak",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 43,
+      "title": "Burning Crusade raid’leri",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 44,
+      "title": "Illidan’ın düşüşü",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 45,
+      "title": "Sunwell yeniden alevleniyor",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 46,
+      "title": "Burning Crusade yama takvimi",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 47,
+      "title": "Outland’ın kilit isimleri",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 48,
+      "title": "Outland’ın sonu, Northrend’in başlangıcı",
+      "chapterId": "the-burning-crusade"
+    },
+    {
+      "number": 49,
+      "title": "Wrath of the Lich King",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 50,
+      "title": "Wrath of the Lich King künyesi",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 51,
+      "title": "Lich King’in çağrısı",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 52,
+      "title": "Northrend’in bölgeleri",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 53,
+      "title": "Death Knight: Acherus’tan özgürlüğe",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 54,
+      "title": "Wrathgate: bir ihanet",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 55,
+      "title": "Naxxramas, Malygos ve Sartharion",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 56,
+      "title": "Ulduar: Titanların kalesi, Yogg-Saron’un hapishanesi",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 57,
+      "title": "Argent Tournament ve Crusaders’ Coliseum",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 58,
+      "title": "Icecrown Citadel: Lich King’e saldırı",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 59,
+      "title": "Arthas’ın düşüşü",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 60,
+      "title": "Ruby Sanctum: Halion ve Deathwing’in gölgesi",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 61,
+      "title": "Wrath raid’leri",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 62,
+      "title": "Wrath yama takvimi",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 63,
+      "title": "Wrath’ın başrolleri",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 64,
+      "title": "Buz eridi, ama gökyüzü yarıldı",
+      "chapterId": "wrath-of-the-lich-king"
+    },
+    {
+      "number": 65,
+      "title": "Cataclysm",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 66,
+      "title": "Cataclysm künyesi",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 67,
+      "title": "Deathwing geri dönüyor",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 68,
+      "title": "The Shattering: eski dünya yıkıldı",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 69,
+      "title": "Cataclysm’in oyun yenilikleri",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 70,
+      "title": "Gilneas ve Worgen: duvarın ardındaki felaket",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 71,
+      "title": "Kezan, Lost Isles ve Goblin’ler",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 72,
+      "title": "Mount Hyjal: Ragnaros Dünya Ağacı’na saldırıyor",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 73,
+      "title": "Vashj’ir ve Deepholm: sular ve taş",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 74,
+      "title": "Uldum: Titanların unutulmuş sığınağı",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 75,
+      "title": "Twilight Highlands ve Tol Barad",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 76,
+      "title": "Cataclysm’in yeni bölgeleri",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 77,
+      "title": "Garrosh yeni Warchief",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 78,
+      "title": "Cairne’in mak’gora’sı",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 79,
+      "title": "Rise of the Zandalari: patch 4.1",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 80,
+      "title": "Rage of the Firelands: patch 4.2",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 81,
+      "title": "Cataclysm dungeon’ları",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 82,
+      "title": "Cataclysm raid’leri",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 83,
+      "title": "Hour of Twilight: patch 4.3",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 84,
+      "title": "Deathwing’in sonu",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 85,
+      "title": "Cataclysm yama takvimi",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 86,
+      "title": "Cataclysm’in başrolleri",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 87,
+      "title": "Deathwing düştü, savaş sürüyor",
+      "chapterId": "cataclysm"
+    },
+    {
+      "number": 88,
+      "title": "Mists of Pandaria",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 89,
+      "title": "Mists of Pandaria künyesi",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 90,
+      "title": "Theramore’un düşüşü",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 91,
+      "title": "Pandaria’nın keşfi",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 92,
+      "title": "Shaohao, Sha ve sisin sırrı",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 93,
+      "title": "Pandaria’nın büyük güçleri",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 94,
+      "title": "Pandaria’nın bölgeleri",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 95,
+      "title": "Divine Bell, Kun-Lai ve Anduin",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 96,
+      "title": "Heart of Fear ve Klaxxi",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 97,
+      "title": "Mogu’shan Vaults ve Terrace of Endless Spring",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 98,
+      "title": "Wrathion, Kara Prens",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 99,
+      "title": "Lei Shen ve The Thunder King: patch 5.2",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 100,
+      "title": "Escalation: patch 5.3 ve Darkspear İsyanı",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 101,
+      "title": "Siege of Orgrimmar: Garrosh’un düşüşü",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 102,
+      "title": "Garrosh’un yargılanması ve kaçışı",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 103,
+      "title": "Timeless Isle ve Celestial Tournament",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 104,
+      "title": "Pandaria dungeon’ları",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 105,
+      "title": "Pandaria raid’leri",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 106,
+      "title": "Pandaria’nın oyun yenilikleri",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 107,
+      "title": "Mists of Pandaria yama takvimi",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 108,
+      "title": "Pandaria’nın başrolleri (1)",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 109,
+      "title": "Pandaria’nın başrolleri (2)",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 110,
+      "title": "Sis dağıldı, ama Garrosh kaçtı",
+      "chapterId": "mists-of-pandaria"
+    },
+    {
+      "number": 111,
+      "title": "Warlords of Draenor",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 112,
+      "title": "Warlords of Draenor künyesi",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 113,
+      "title": "Garrosh geçmişe kaçıyor",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 114,
+      "title": "Iron Horde: demirden bir ordu",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 115,
+      "title": "Draenor’un halkları",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 116,
+      "title": "Draenor’un bölgeleri",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 117,
+      "title": "Garrison: kendi üssünü kur",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 118,
+      "title": "Highmaul: Gorian Empire’ın çöküşü",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 119,
+      "title": "Blackrock Foundry: demir ordunun dökümhanesi",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 120,
+      "title": "Garrosh’un sonu: Nagrand’da mak’gora",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 121,
+      "title": "Gul’dan’ın ihaneti",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 122,
+      "title": "Tanaan Jungle ve Hellfire’a hücum",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 123,
+      "title": "Hellfire Citadel ve Archimonde",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 124,
+      "title": "Archimonde’un düşüşü",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 125,
+      "title": "Draenor dungeon’ları",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 126,
+      "title": "Draenor raid’leri",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 127,
+      "title": "Warlords of Draenor yama takvimi",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 128,
+      "title": "Draenor’un başrolleri (1)",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 129,
+      "title": "Draenor’un başrolleri (2)",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 130,
+      "title": "Draenor biter, Legion başlar",
+      "chapterId": "warlords-of-draenor"
+    },
+    {
+      "number": 131,
+      "title": "Legion",
+      "chapterId": "legion"
+    },
+    {
+      "number": 132,
+      "title": "Legion künyesi",
+      "chapterId": "legion"
+    },
+    {
+      "number": 133,
+      "title": "Gul’dan Azeroth’a dönüyor",
+      "chapterId": "legion"
+    },
+    {
+      "number": 134,
+      "title": "Broken Shore: Varian ve Vol’jin düşüyor",
+      "chapterId": "legion"
+    },
+    {
+      "number": 135,
+      "title": "Broken Isles ve Pillars of Creation",
+      "chapterId": "legion"
+    },
+    {
+      "number": 136,
+      "title": "Demon Hunter: Mardum’dan Illidari’ye",
+      "chapterId": "legion"
+    },
+    {
+      "number": 137,
+      "title": "Broken Isles’ın dört bölgesi",
+      "chapterId": "legion"
+    },
+    {
+      "number": 138,
+      "title": "Suramar ve Nightborne",
+      "chapterId": "legion"
+    },
+    {
+      "number": 139,
+      "title": "Emerald Nightmare: Xavius’un rüyası",
+      "chapterId": "legion"
+    },
+    {
+      "number": 140,
+      "title": "Return to Karazhan ve Trial of Valor",
+      "chapterId": "legion"
+    },
+    {
+      "number": 141,
+      "title": "Gul’dan’ın düşüşü: Nighthold",
+      "chapterId": "legion"
+    },
+    {
+      "number": 142,
+      "title": "Tomb of Sargeras ve Kil’jaeden",
+      "chapterId": "legion"
+    },
+    {
+      "number": 143,
+      "title": "Argus: Shadows of Argus (7.3)",
+      "chapterId": "legion"
+    },
+    {
+      "number": 144,
+      "title": "Antorus, the Burning Throne",
+      "chapterId": "legion"
+    },
+    {
+      "number": 145,
+      "title": "Sargeras’ın kılıcı: Silithus’taki Yara",
+      "chapterId": "legion"
+    },
+    {
+      "number": 146,
+      "title": "Legion’un oyun yenilikleri",
+      "chapterId": "legion"
+    },
+    {
+      "number": 147,
+      "title": "Legion dungeon’ları",
+      "chapterId": "legion"
+    },
+    {
+      "number": 148,
+      "title": "Legion raid’leri",
+      "chapterId": "legion"
+    },
+    {
+      "number": 149,
+      "title": "Legion yama takvimi (1/2)",
+      "chapterId": "legion"
+    },
+    {
+      "number": 150,
+      "title": "Legion yama takvimi (2/2)",
+      "chapterId": "legion"
+    },
+    {
+      "number": 151,
+      "title": "Legion’un başrolleri (1)",
+      "chapterId": "legion"
+    },
+    {
+      "number": 152,
+      "title": "Legion’un başrolleri (2)",
+      "chapterId": "legion"
+    },
+    {
+      "number": 153,
+      "title": "Legion biter, Azerite doğar",
+      "chapterId": "legion"
+    },
+    {
+      "number": 154,
+      "title": "Battle for Azeroth",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 155,
+      "title": "Battle for Azeroth künyesi",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 156,
+      "title": "Azerite ve Heart of Azeroth",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 157,
+      "title": "Teldrassil’in yanışı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 158,
+      "title": "Battle for Lordaeron",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 159,
+      "title": "Kul Tiras: Jaina’nın yurdu",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 160,
+      "title": "Zandalar: Rastakhan’ın krallığı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 161,
+      "title": "Battle for Azeroth’un bölgeleri",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 162,
+      "title": "Uldir: G’huun’un hapishanesi",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 163,
+      "title": "Allied Races: on yeni halk",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 164,
+      "title": "War Campaign, Warfront ve Island Expedition",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 165,
+      "title": "Battle of Dazar’alor: Rastakhan’ın düşüşü",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 166,
+      "title": "Crucible of Storms ve Void’in uyanışı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 167,
+      "title": "Rise of Azshara: Nazjatar",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 168,
+      "title": "Eternal Palace: Azshara’nın sarayı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 169,
+      "title": "Visions of N’Zoth: patch 8.3",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 170,
+      "title": "Ny’alotha: N’Zoth’un sonu",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 171,
+      "title": "Saurfang’ın mak’gora’sı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 172,
+      "title": "Sylvanas ve Shadowlands’a açılan kapı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 173,
+      "title": "Battle for Azeroth dungeon’ları",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 174,
+      "title": "Battle for Azeroth raid’leri",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 175,
+      "title": "Battle for Azeroth’un oyun yenilikleri",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 176,
+      "title": "Battle for Azeroth yama takvimi (1/2)",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 177,
+      "title": "Battle for Azeroth yama takvimi (2/2)",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 178,
+      "title": "Battle for Azeroth’un başrolleri (1)",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 179,
+      "title": "Battle for Azeroth’un başrolleri (2)",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 180,
+      "title": "Azeroth savaşı kazandı, ölüm kapıyı araladı",
+      "chapterId": "battle-for-azeroth"
+    },
+    {
+      "number": 181,
+      "title": "Shadowlands",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 182,
+      "title": "Shadowlands künyesi",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 183,
+      "title": "Seviye ezilmesi ve Exile’s Reach",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 184,
+      "title": "Taç kırıldı: Death Rising",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 185,
+      "title": "Maw’dan Oribos’a",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 186,
+      "title": "The Jailer: Zovaal’ın hikâyesi",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 187,
+      "title": "Sylvanas’ın anlaşması",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 188,
+      "title": "Dört covenant, dört diyar",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 189,
+      "title": "Bastion: Kyrian’ın yurdu",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 190,
+      "title": "Maldraxxus: Necrolord’un yurdu",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 191,
+      "title": "Ardenweald: Night Fae’nin yurdu",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 192,
+      "title": "Revendreth: Venthyr’ın yurdu",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 193,
+      "title": "Shadowlands’in diyarları",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 194,
+      "title": "The Maw: Jailer’ın diyarı",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 195,
+      "title": "Torghast ve Runecarver",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 196,
+      "title": "Denathrius’un düşüşü",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 197,
+      "title": "Shadowlands’in oyun yenilikleri",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 198,
+      "title": "Zincirler: Sanctum of Domination",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 199,
+      "title": "Korthia ve Tazavesh",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 200,
+      "title": "Shadowlands’in üç raid’i",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 201,
+      "title": "Sanctum ve Sepulcher: boss sırası",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 202,
+      "title": "Eternity’s End: Zereth Mortis",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 203,
+      "title": "Jailer’ın sonu",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 204,
+      "title": "Shadowlands dungeon’ları",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 205,
+      "title": "Shadowlands’in karnesi",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 206,
+      "title": "Shadowlands yama takvimi (1/2)",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 207,
+      "title": "Shadowlands yama takvimi (2/2)",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 208,
+      "title": "Shadowlands’in başrolleri (1)",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 209,
+      "title": "Shadowlands’in başrolleri (2)",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 210,
+      "title": "Jailer yenildi, Arbiter görevde",
+      "chapterId": "shadowlands"
+    },
+    {
+      "number": 211,
+      "title": "Dragonflight",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 212,
+      "title": "Dragonflight künyesi",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 213,
+      "title": "Ejderha Adaları geri döndü",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 214,
+      "title": "Dracthyr: Neltharion’un askerleri",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 215,
+      "title": "Primal Incarnate’ler",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 216,
+      "title": "Ejderha uçuşları ve liderleri",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 217,
+      "title": "Waking Shores: kırmızı ve siyah yurt",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 218,
+      "title": "Ohn’ahran Plains: centaur’ların ovası",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 219,
+      "title": "Azure Span: mavi uçuşun yurdu",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 220,
+      "title": "Thaldraszus: Aspect’lerin merkezi",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 221,
+      "title": "Dragon Isles’ın bölgeleri",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 222,
+      "title": "Raszageth’in düşüşü",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 223,
+      "title": "Embers of Neltharion: Zaralek Cavern",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 224,
+      "title": "Aberrus ve Sarkareth’in sonu",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 225,
+      "title": "Fractures in Time: Murozond’un yükselişi",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 226,
+      "title": "Dragonflight’ın ara yamaları",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 227,
+      "title": "Guardians of the Dream: Emerald Dream",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 228,
+      "title": "Fyrakk’ın sonu: Amirdrassil",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 229,
+      "title": "Dark Heart: Harbinger’ın adı",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 230,
+      "title": "Dragonflight dungeon’ları",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 231,
+      "title": "Dragonflight raid’leri",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 232,
+      "title": "Dragonflight raid’leri: boss sırası",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 233,
+      "title": "Dragonflight’ın oyun yenilikleri",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 234,
+      "title": "Dragonflight’ın karnesi",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 235,
+      "title": "Dragonflight yama takvimi (1/2)",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 236,
+      "title": "Dragonflight yama takvimi (2/2)",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 237,
+      "title": "Dragonflight’ın başrolleri (1)",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 238,
+      "title": "Dragonflight’ın başrolleri (2)",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 239,
+      "title": "Ejderhalar kazandı, Harbinger uyandı",
+      "chapterId": "dragonflight"
+    },
+    {
+      "number": 240,
+      "title": "The War Within",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 241,
+      "title": "The War Within künyesi",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 242,
+      "title": "Worldsoul Saga ve Harbinger",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 243,
+      "title": "Khaz Algar’ın tarihi",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 244,
+      "title": "Dalaran’ın yıkılışı",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 245,
+      "title": "Isle of Dorn: earthen’lerin yurdu",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 246,
+      "title": "Ringing Deeps: makine ve goblin’ler",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 247,
+      "title": "Hallowfall: Beledar’ın ışığı",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 248,
+      "title": "Azj-Kahet: nerubian krallığı",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 249,
+      "title": "The War Within’in bölgeleri",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 250,
+      "title": "Algari Offensive ve Priory’deki yüzleşme",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 251,
+      "title": "Ansurek’in düşüşü",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 252,
+      "title": "The War Within’in oyun yenilikleri",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 253,
+      "title": "Ara yamalar: 11.0.5’ten 11.1.7’ye",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 254,
+      "title": "Undermine(d): goblin devrimi",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 255,
+      "title": "Gallywix’in düşüşü",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 256,
+      "title": "Ghosts of K’aresh",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 257,
+      "title": "Manaforge Omega ve Xal’atath’ın ihaneti",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 258,
+      "title": "Legion Remix ve The Warning",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 259,
+      "title": "The War Within dungeon’ları",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 260,
+      "title": "The War Within raid’leri",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 261,
+      "title": "The War Within raid’leri: kanatlar",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 262,
+      "title": "The War Within’in karnesi",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 263,
+      "title": "The War Within yama takvimi (1/2)",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 264,
+      "title": "The War Within yama takvimi (2/2)",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 265,
+      "title": "The War Within’in başrolleri (1)",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 266,
+      "title": "The War Within’in başrolleri (2)",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 267,
+      "title": "Void’in gölgesi Quel’Thalas’a uzandı",
+      "chapterId": "the-war-within"
+    },
+    {
+      "number": 268,
+      "title": "Midnight",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 269,
+      "title": "Midnight künyesi",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 270,
+      "title": "Voidstorm’un doğuşu",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 271,
+      "title": "Quel’Thalas: Sunwell’in yurdu",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 272,
+      "title": "Quel’Danas kuşatması",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 273,
+      "title": "Sunwell’i tutmak",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 274,
+      "title": "Eversong Woods: Lightbloom ve Blade",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 275,
+      "title": "Windrunner Spire: ailenin hayaletleri",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 276,
+      "title": "Zul’Aman: Amani’nin savaşı",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 277,
+      "title": "Harandar: haranir ve Rift of Aln",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 278,
+      "title": "Voidstorm: Predacea’nın küllerinde",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 279,
+      "title": "Midnight’ın bölgeleri",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 280,
+      "title": "Voidspire’ın düşüşü",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 281,
+      "title": "Sezon 1’in üç raid’i",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 282,
+      "title": "March on Quel’Danas",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 283,
+      "title": "Darkwell’den Dawnwell’e",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 284,
+      "title": "Midnight’ın oyun yenilikleri (1/2)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 285,
+      "title": "Midnight’ın oyun yenilikleri (2/2)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 286,
+      "title": "Midnight’ın dungeon’ları",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 287,
+      "title": "Midnight’ın raid’leri: tam liste",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 288,
+      "title": "Midnight’ın 2026 yamaları",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 289,
+      "title": "12.1: Coiled Isle ve Zul’jan",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 290,
+      "title": "Ula’tek’in düşüşü",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 291,
+      "title": "12.1.5: The Promise of Tomorrow",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 292,
+      "title": "12.1.5’in içeriği (PTR verisi)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 293,
+      "title": "12.2 Eclipse: Mantle Vault",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 294,
+      "title": "Eclipse ve Sezon 3’ün yenilikleri",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 295,
+      "title": "Duyurulan sıradaki içerik",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 296,
+      "title": "Midnight’ın karnesi",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 297,
+      "title": "Midnight yama takvimi (1/3)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 298,
+      "title": "Midnight yama takvimi (2/3)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 299,
+      "title": "Midnight yama takvimi (3/3)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 300,
+      "title": "Midnight’ın başrolleri (1)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 301,
+      "title": "Midnight’ın başrolleri (2)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 302,
+      "title": "Midnight’ın başrolleri (3)",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 303,
+      "title": "Eclipse’e ve The Last Titan’a doğru",
+      "chapterId": "midnight"
+    },
+    {
+      "number": 304,
+      "title": "The Last Titan",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 305,
+      "title": "The Last Titan künyesi",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 306,
+      "title": "COLOSSAL: duyuru fragmanı",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 307,
+      "title": "Worldsoul Saga’nın üç perdesi",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 308,
+      "title": "Yirmi yıllık hikâyenin finali",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 309,
+      "title": "Bilinenler ve bilinmeyenler",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 310,
+      "title": "Teaser’ın ipuçları (resmî değil)",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 311,
+      "title": "The Last Titan’a giden yol",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 312,
+      "title": "Büyük finale doğru",
+      "chapterId": "the-last-titan"
+    },
+    {
+      "number": 313,
+      "title": "Bütün resim",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 314,
+      "title": "Genişlemeler bir bakışta (1/2)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 315,
+      "title": "Genişlemeler bir bakışta (2/2)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 316,
+      "title": "Dört ipliğin yolculuğu",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 317,
+      "title": "Dönüm noktaları (1/4)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 318,
+      "title": "Dönüm noktaları (2/4)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 319,
+      "title": "Dönüm noktaları (3/4)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 320,
+      "title": "Dönüm noktaları (4/4)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 321,
+      "title": "Karakterlerin kaderi (1/2)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 322,
+      "title": "Karakterlerin kaderi (2/2)",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 323,
+      "title": "Genişlemelerin karnesi",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 324,
+      "title": "Midnight sonrası açık sorular",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 325,
+      "title": "Yirmi iki yıl, tek hikâye",
+      "chapterId": "butun-resim"
+    },
+    {
+      "number": 326,
+      "title": "Kaynaklar (1/2): referans siteleri",
+      "chapterId": "kaynaklar"
+    },
+    {
+      "number": 327,
+      "title": "Kaynaklar (2/2): haber ve duyurular",
+      "chapterId": "kaynaklar"
+    }
+  ]
+}
