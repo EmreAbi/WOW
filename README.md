@@ -2,6 +2,8 @@
 
 A blank React application built with Vite. Requires Node.js 24.12.0.
 
+Live site: https://wow-5x7.pages.dev
+
 ```sh
 npm ci
 npm run dev
@@ -19,6 +21,7 @@ The production files are generated in `dist/`.
 
 ## Cloudflare Pages
 
+- Project: `wow`, connected to `EmreAbi/WOW` with automatic deployments
 - Production branch: `main`
 - Build command: `npm run build`
 - Build output directory: `dist`
