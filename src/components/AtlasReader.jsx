@@ -7,6 +7,7 @@ import {
   Check,
   ChevronDown,
   ChevronRight,
+  Compass,
   Copy,
   ExternalLink,
   List,
@@ -16,6 +17,7 @@ import {
   X,
 } from "lucide-react";
 import atlas from "../data/atlas.json";
+import AtlasLink from "./AtlasLink";
 import "./atlas-reader.css";
 
 const OMITTED_ROLES = new Set([
@@ -128,13 +130,65 @@ function SourceGroup({ group }) {
   );
 }
 
-function ArticleContent({ slide }) {
+function ArticleContent({ slide, onNavigate }) {
   const groups = slide.groups.filter((group) => !OMITTED_ROLES.has(group.role));
   const blocks = [];
   for (let index = 0; index < groups.length; index += 1) {
     const group = groups[index];
     const next = groups[index + 1];
-    if (
+    if (group.name === "Dönem no" && next?.name === "Dönem adı") {
+      const entries = [];
+      while (
+        groups[index]?.name === "Dönem no" &&
+        groups[index + 1]?.name === "Dönem adı" &&
+        groups[index + 2]?.name === "Dönem yılları"
+      ) {
+        const [number, title, period] = groups.slice(index, index + 3);
+        const destination = atlas.chapters.find(
+          (item) => item.index === Number(number.texts[0]),
+        );
+        if (!destination) break;
+        entries.push(
+          <li key={number.id}>
+            <AtlasLink
+              className="ar-map-card"
+              page={destination.start}
+              onNavigate={onNavigate}
+            >
+              <span className="ar-map-number" data-source-group={number.id}>
+                {number.texts.join("\n")}
+              </span>
+              <div className="ar-map-detail">
+                <span className="ar-map-period" data-source-group={period.id}>
+                  {period.texts.join("\n")}
+                </span>
+                <h2 data-source-group={title.id}>{title.texts.join("\n")}</h2>
+                <span className="ar-map-action">
+                  Bölümü aç <span>· {destination.end - destination.start + 1} sayfa</span>
+                </span>
+              </div>
+              <ArrowRight size={18} aria-hidden="true" />
+            </AtlasLink>
+          </li>,
+        );
+        index += 3;
+      }
+      if (entries.length) {
+        blocks.push(
+          <nav
+            className="ar-journey-map"
+            aria-label="Dönemlere doğrudan git"
+            key={group.id}
+          >
+            <p className="ar-map-hint">Bir dönem seç, hikâyesine doğrudan geç.</p>
+            <ol>{entries}</ol>
+          </nav>,
+        );
+        index -= 1;
+      } else {
+        blocks.push(<SourceGroup group={group} key={group.id} />);
+      }
+    } else if (
       (group.name === "İstatistik değeri" &&
         next?.name === "İstatistik etiketi") ||
       (group.name === "Değer" && next?.name === "Not")
@@ -199,6 +253,7 @@ export default function AtlasReader({
 }) {
   const dialogRef = useRef(null);
   const searchRef = useRef(null);
+  const menuRef = useRef(null);
   const articleRef = useRef(null);
   const titleRef = useRef(null);
   const previousPage = useRef(page);
@@ -291,6 +346,10 @@ export default function AtlasReader({
   function navigate(number) {
     onPage(number);
     setSidebarOpen(false);
+    requestAnimationFrame(() => {
+      articleRef.current?.scrollTo({ top: 0, behavior: "instant" });
+      titleRef.current?.focus({ preventScroll: true });
+    });
   }
 
   function toggleBookmark() {
@@ -333,18 +392,6 @@ export default function AtlasReader({
       setSidebarOpen(true);
       requestAnimationFrame(() => searchRef.current?.focus());
     }
-    if (event.altKey && event.key === "ArrowLeft" && page > 1) {
-      event.preventDefault();
-      navigate(page - 1);
-    }
-    if (
-      event.altKey &&
-      event.key === "ArrowRight" &&
-      page < atlas.slides.length
-    ) {
-      event.preventDefault();
-      navigate(page + 1);
-    }
   }
 
   return (
@@ -354,7 +401,10 @@ export default function AtlasReader({
       aria-labelledby="atlas-reader-heading"
       onCancel={(event) => {
         event.preventDefault();
-        onClose();
+        if (isCompact && sidebarOpen) {
+          setSidebarOpen(false);
+          menuRef.current?.focus();
+        } else onClose();
       }}
       onKeyDown={handleKeys}
     >
@@ -362,12 +412,17 @@ export default function AtlasReader({
         <header className="ar-topbar">
           <div className="ar-topbar-start">
             <button
+              ref={menuRef}
               type="button"
               className="ar-icon-button ar-menu-button"
               aria-label={sidebarOpen ? "Bölümleri kapat" : "Bölümleri aç"}
               aria-controls="ar-sidebar"
               aria-expanded={sidebarOpen}
-              onClick={() => setSidebarOpen((value) => !value)}
+              onClick={() => {
+                setSidebarOpen((value) => !value);
+                if (!sidebarOpen)
+                  requestAnimationFrame(() => searchRef.current?.focus());
+              }}
             >
               <List size={20} />
             </button>
@@ -379,15 +434,27 @@ export default function AtlasReader({
               <span>/ {atlas.slides.length}</span>
             </span>
           </div>
-          <button
-            className="ar-close"
-            type="button"
-            aria-label="Atlası kapat"
-            onClick={onClose}
-          >
-            <span>Atlası kapat</span>
-            <X size={19} />
-          </button>
+          <div className="ar-topbar-actions">
+            <AtlasLink
+              className="ar-map-shortcut"
+              page={2}
+              onNavigate={navigate}
+              aria-label="Yolculuğun haritası"
+              aria-current={slide.number === 2 ? "page" : undefined}
+            >
+              <Compass size={19} aria-hidden="true" />
+              <span>Harita</span>
+            </AtlasLink>
+            <button
+              className="ar-close"
+              type="button"
+              aria-label="Atlası kapat"
+              onClick={onClose}
+            >
+              <span>Atlası kapat</span>
+              <X size={19} />
+            </button>
+          </div>
         </header>
         <div className="ar-layout">
           {sidebarOpen && (
@@ -490,12 +557,14 @@ export default function AtlasReader({
                     <div className="ar-empty">
                       <Search size={25} aria-hidden="true" />
                       <h3>
-                        {savedOnly
+                        {savedOnly && bookmarks.length === 0
                           ? "Henüz kayıtlı sayfa yok"
-                          : "Bu aramada sonuç yok"}
+                          : savedOnly
+                            ? "Kaydedilenlerde eşleşen sonuç yok"
+                            : "Bu aramada sonuç yok"}
                       </h3>
                       <p>
-                        {savedOnly
+                        {savedOnly && bookmarks.length === 0
                           ? "Bir sayfayı kaydetmek için okuma alanındaki yer imi düğmesini kullanın."
                           : "Farklı bir karakter adı veya daha kısa bir kelime deneyin."}
                       </p>
@@ -584,7 +653,13 @@ export default function AtlasReader({
           >
             <div className="ar-reading-tools">
               <div className="ar-breadcrumb">
-                <span>{chapter.title}</span>
+                <AtlasLink
+                  page={chapter.start}
+                  onNavigate={navigate}
+                  aria-label={`${chapter.title}: bölümün başına dön`}
+                >
+                  {chapter.title}
+                </AtlasLink>
                 <ChevronRight size={12} aria-hidden="true" />
                 <span>
                   {slide.number - chapter.start + 1} /{" "}
@@ -679,7 +754,7 @@ export default function AtlasReader({
                   <span />
                 </div>
               </header>
-              <ArticleContent slide={slide} />
+              <ArticleContent slide={slide} onNavigate={navigate} />
               {slide.images.length > 0 && (
                 <div className="ar-source-icons" aria-hidden="true">
                   {slide.images.map((image, index) => (

@@ -24,6 +24,7 @@ import {
   X,
 } from "lucide-react";
 import catalog from "./data/catalog.json";
+import AtlasLink from "./components/AtlasLink";
 
 const ArcaneScene = lazy(() => import("./components/ArcaneScene"));
 const AtlasReader = lazy(() => import("./components/AtlasReader"));
@@ -68,6 +69,9 @@ const filters = [
   "Rehber & kaynaklar",
 ];
 const QuietContext = createContext(false);
+const searchShortcut = /Mac|iPhone|iPad/.test(navigator.platform)
+  ? "⌘ K"
+  : "Ctrl K";
 
 export function Brand({ onClick }) {
   return (
@@ -211,7 +215,7 @@ export default function App() {
       (filter === 1 && c.index <= 0) ||
       (filter === 2 && c.index >= 1 && c.index <= 10) ||
       (filter === 3 && c.index >= 11 && c.index <= 13) ||
-      (filter === 4 && c.index >= 14),
+      (filter === 4 && (c.index < 0 || c.index >= 14)),
   );
   return (
     <QuietContext.Provider value={reducedMotion}>
@@ -226,9 +230,9 @@ export default function App() {
               className={`main-nav ${menu ? "is-open" : ""}`}
               aria-label="Ana menü"
             >
-              <a href="#kesfet" onClick={() => setMenu(false)}>
-                Keşfet
-              </a>
+              <AtlasLink page={2} onNavigate={openReader}>
+                Harita
+              </AtlasLink>
               <a href="#zaman-cizelgesi" onClick={() => setMenu(false)}>
                 Zaman çizelgesi
               </a>
@@ -245,7 +249,7 @@ export default function App() {
               >
                 <Search size={17} />
                 <span>Atlas’ta ara</span>
-                <kbd>⌘ K</kbd>
+                <kbd>{searchShortcut}</kbd>
               </button>
               <span className="language">TR</span>
               <button
